@@ -30,6 +30,15 @@ header .row {
     justify-content: center;
 }
 
+.custom-col-header a {
+    font-family: "Roboto-Regular";
+    color: #000;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
 header img {
     width: 46px;
     height: 46px;
