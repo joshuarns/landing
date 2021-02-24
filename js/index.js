@@ -1,39 +1,39 @@
 $(document).ready(function() {
-    $("#clickOne").click(function() {
-        $("#headingOne").slideclick("slow");
+    $("#toggleOne").click(function() {
+        $("#headingOne").slideToggle("slow");
     });
-    $("#clickTwo").click(function() {
-        $("#headingTwo").slideclick("slow");
+    $("#toggleTwo").click(function() {
+        $("#headingTwo").slideToggle("slow");
     });
-    $("#clickThree").click(function() {
-        $("#headingThree").slideclick("slow");
+    $("#toggleThree").click(function() {
+        $("#headingThree").slideToggle("slow");
     });
-    $("#clickFour").click(function() {
-        $("#headingFour").slideclick("slow");
+    $("#toggleFour").click(function() {
+        $("#headingFour").slideToggle("slow");
     });
-    $("#clickFive").click(function() {
-        $("#headingFive").slideclick("slow");
+    $("#toggleFive").click(function() {
+        $("#headingFive").slideToggle("slow");
     });
-    $("#clickSix").click(function() {
-        $("#headingSix").slideclick("slow");
+    $("#toggleSix").click(function() {
+        $("#headingSix").slideToggle("slow");
     });
-    $("#clickSeven").click(function() {
-        $("#headingSeven").slideclick("slow");
+    $("#toggleSeven").click(function() {
+        $("#headingSeven").slideToggle("slow");
     });
-    $("#clickEight").click(function() {
-        $("#headingEight").slideclick("slow");
+    $("#toggleEight").click(function() {
+        $("#headingEight").slideToggle("slow");
     });
-    $("#clickNine").click(function() {
-        $("#headingNine").slideclick("slow");
+    $("#toggleNine").click(function() {
+        $("#headingNine").slideToggle("slow");
     });
-    $("#clickTen").click(function() {
-        $("#headingTen").slideclick("slow");
+    $("#toggleTen").click(function() {
+        $("#headingTen").slideToggle("slow");
     });
-    $("#clickEleven").click(function() {
-        $("#headingEleven").slideclick("slow");
+    $("#toggleEleven").click(function() {
+        $("#headingEleven").slideToggle("slow");
     });
-    $("#clickTwelve").click(function() {
-        $("#headingTwelve").slideclick("slow");
+    $("#toggleTwelve").click(function() {
+        $("#headingTwelve").slideToggle("slow");
     });
 
     $(window).load(function() {
@@ -48,6 +48,6 @@ $(document).ready(function() {
     });
     $(window).load(function() {
         $("#brandSelectOne").delay(100).fadeIn();
-        $("#brandSelecTwo").delay(400).fadeIn();
+        $("#brandSelecTwo").delay(300).fadeIn();
     });
 });
